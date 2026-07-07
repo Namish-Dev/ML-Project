@@ -1,0 +1,7 @@
+The speaker created the 'purchase_agg_df' dataset to aggregate item-level purchase data up to the vendor invoice level (34:42 - 35:36). This was necessary because the raw data was at the line-item level, but the goal was to analyze and predict risks for complete invoices (31:36).
+
+According to the video, this aggregation provides the following insights:
+
+Total Item Quantity: Summarizes how many items were ordered per invoice (35:08).
+Total Item Dollars: Calculates the total monetary value of items ordered per invoice (35:28).
+Average Receiving Delay: Determines the mean difference between the receiving date and the purchase order date, converted using Julian days to analyze delivery patterns
